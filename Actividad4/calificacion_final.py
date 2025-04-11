@@ -1,0 +1,5 @@
+tarea = float(input("Ingrese la calificación de la tarea: "))
+examen_parcial = float(input("Ingrese la calificación del examen parcial: "))
+examen_final = float(input("Ingrese la calificación del examen final: "))
+calificacion_final = (tarea * 0.30) + (examen_parcial * 0.30) + (examen_final * 0.40)
+print(f"Calificación final: {calificacion_final:.2f}")
